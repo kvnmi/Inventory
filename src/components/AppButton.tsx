@@ -15,7 +15,10 @@ function AppButtons({ title, onPress, color = "primary", disabled }: props) {
   return (
     <TouchableOpacity
       disabled={disabled}
-      style={[styles.button, { backgroundColor: colors[color] }]}
+      style={[
+        styles.button,
+        { backgroundColor: colors[color], opacity: disabled ? 0.5 : 1 },
+      ]}
       onPress={onPress}
     >
       <Text style={styles.text}>{title}</Text>
@@ -26,7 +29,7 @@ function AppButtons({ title, onPress, color = "primary", disabled }: props) {
 const styles = StyleSheet.create({
   button: {
     width: "100%",
-    height: pixelSizeVertical(45),
+    height: pixelSizeVertical(50),
     borderRadius: 15,
     justifyContent: "center",
     alignItems: "center",

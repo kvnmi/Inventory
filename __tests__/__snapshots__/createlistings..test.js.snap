@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Listing Screen matches snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    [
+      "top",
+    ]
+  }
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "alignItems": "center",
+        "marginTop": 8,
+        "paddingHorizontal": 30,
+      },
+    ]
+  }
+>
+  <Image
+    source={1}
+    style={
+      {
+        "alignSelf": "center",
+        "height": 132,
+        "marginVertical": 70,
+        "width": 160,
+      }
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Avenir",
+          "fontSize": 32,
+        },
+        {
+          "color": "#0e1f3f",
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+    Add Inventory Item
+  </Text>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e4e8e5",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "marginVertical": 10,
+          "padding": 8,
+          "paddingLeft": 13,
+        },
+        {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text />
+    <TextInput
+      autoCapitalize="sentences"
+      autoCorrect={true}
+      maxLength={225}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Name"
+      placeholderTextColor="#6e6969"
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Avenir",
+          "fontSize": 28,
+          "width": "100%",
+        }
+      }
+      value=""
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e4e8e5",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "marginVertical": 10,
+          "padding": 8,
+          "paddingLeft": 13,
+        },
+        {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text />
+    <TextInput
+      autoCapitalize="none"
+      autoCorrect={false}
+      keyboardType="numeric"
+      maxLength={8}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Price"
+      placeholderTextColor="#6e6969"
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Avenir",
+          "fontSize": 28,
+          "width": "100%",
+        }
+      }
+      value=""
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e4e8e5",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "marginVertical": 10,
+          "padding": 8,
+          "paddingLeft": 13,
+        },
+        {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text />
+    <TextInput
+      autoCapitalize="none"
+      autoCorrect={false}
+      keyboardType="numeric"
+      maxLength={8}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Stock"
+      placeholderTextColor="#6e6969"
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Avenir",
+          "fontSize": 28,
+          "width": "100%",
+        }
+      }
+      value=""
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e4e8e5",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "marginVertical": 10,
+          "padding": 8,
+          "paddingLeft": 13,
+        },
+        {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text />
+    <TextInput
+      autoCapitalize="sentences"
+      autoCorrect={true}
+      numberOfLines={3}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Description"
+      placeholderTextColor="#6e6969"
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Avenir",
+          "fontSize": 28,
+          "width": "100%",
+        }
+      }
+      value=""
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fc5c65",
+        "borderRadius": 15,
+        "height": 90,
+        "justifyContent": "center",
+        "marginVertical": 20,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 32,
+        }
+      }
+    >
+      Submit
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Modal
+      animationType="none"
+      deviceHeight={null}
+      deviceWidth={null}
+      hardwareAccelerated={false}
+      hideModalContentWhileAnimating={false}
+      onBackdropPress={[Function]}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      onRequestClose={[Function]}
+      onSwipeComplete={[Function]}
+      panResponderThreshold={4}
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      statusBarTranslucent={false}
+      supportedOrientations={
+        [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeDirection={
+        [
+          "down",
+        ]
+      }
+      swipeThreshold={100}
+      transparent={true}
+      visible={false}
+    />
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Modal
+      animationType="none"
+      deviceHeight={null}
+      deviceWidth={null}
+      hardwareAccelerated={false}
+      hideModalContentWhileAnimating={false}
+      onBackdropPress={[Function]}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      onRequestClose={[Function]}
+      onSwipeComplete={[Function]}
+      panResponderThreshold={4}
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      statusBarTranslucent={false}
+      supportedOrientations={
+        [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeDirection={
+        [
+          "down",
+        ]
+      }
+      swipeThreshold={100}
+      transparent={true}
+      visible={false}
+    />
+  </View>
+</RNCSafeAreaView>
+`;

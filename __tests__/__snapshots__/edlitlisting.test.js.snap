@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Edit Listing Screen matches snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    [
+      "top",
+    ]
+  }
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "flex": 1,
+        "paddingHorizontal": 30,
+        "paddingTop": 40,
+      },
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#eef2ff",
+        "borderRadius": 10,
+        "marginBottom": 20,
+        "padding": 10,
+      }
+    }
+  >
+    <Text />
+  </View>
+  <Image
+    source={1}
+    style={
+      {
+        "alignSelf": "center",
+        "height": 132,
+        "marginBottom": 70,
+        "width": 160,
+      }
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e4e8e5",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "marginVertical": 10,
+          "padding": 8,
+          "paddingLeft": 13,
+        },
+        {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text />
+    <TextInput
+      autoCapitalize="sentences"
+      autoCorrect={true}
+      maxLength={225}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Name"
+      placeholderTextColor="#6e6969"
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Avenir",
+          "fontSize": 28,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e4e8e5",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "marginVertical": 10,
+          "padding": 8,
+          "paddingLeft": 13,
+        },
+        {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text />
+    <TextInput
+      autoCapitalize="none"
+      autoCorrect={false}
+      keyboardType="numeric"
+      maxLength={8}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Price"
+      placeholderTextColor="#6e6969"
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Avenir",
+          "fontSize": 28,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e4e8e5",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "marginVertical": 10,
+          "padding": 8,
+          "paddingLeft": 13,
+        },
+        {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text />
+    <TextInput
+      autoCapitalize="none"
+      autoCorrect={false}
+      keyboardType="numeric"
+      maxLength={8}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Stock"
+      placeholderTextColor="#6e6969"
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Avenir",
+          "fontSize": 28,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e4e8e5",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "marginVertical": 10,
+          "padding": 8,
+          "paddingLeft": 13,
+        },
+        {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text />
+    <TextInput
+      autoCapitalize="sentences"
+      autoCorrect={true}
+      numberOfLines={3}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Description"
+      placeholderTextColor="#6e6969"
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Avenir",
+          "fontSize": 28,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fc5c65",
+        "borderRadius": 15,
+        "height": 90,
+        "justifyContent": "center",
+        "marginVertical": 20,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 32,
+        }
+      }
+    >
+      Update Item
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignSelf": "center",
+        "marginVertical": 40,
+        "opacity": 1,
+        "padding": 40,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Avenir",
+            "fontSize": 32,
+          },
+          {
+            "color": "#fc5c65",
+            "fontSize": 30,
+            "fontWeight": "700",
+          },
+        ]
+      }
+    >
+      Delete Item
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Modal
+      animationType="none"
+      deviceHeight={null}
+      deviceWidth={null}
+      hardwareAccelerated={false}
+      hideModalContentWhileAnimating={false}
+      onBackdropPress={[Function]}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      onRequestClose={[Function]}
+      onSwipeComplete={[Function]}
+      panResponderThreshold={4}
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      statusBarTranslucent={false}
+      supportedOrientations={
+        [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeDirection={
+        [
+          "down",
+        ]
+      }
+      swipeThreshold={100}
+      transparent={true}
+      visible={false}
+    />
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Modal
+      animationType="none"
+      deviceHeight={null}
+      deviceWidth={null}
+      hardwareAccelerated={false}
+      hideModalContentWhileAnimating={false}
+      onBackdropPress={[Function]}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      onRequestClose={[Function]}
+      onSwipeComplete={[Function]}
+      panResponderThreshold={4}
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      statusBarTranslucent={false}
+      supportedOrientations={
+        [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeDirection={
+        [
+          "down",
+        ]
+      }
+      swipeThreshold={100}
+      transparent={true}
+      visible={false}
+    />
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Modal
+      animationType="none"
+      deviceHeight={null}
+      deviceWidth={null}
+      hardwareAccelerated={false}
+      hideModalContentWhileAnimating={false}
+      onBackdropPress={[Function]}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      onRequestClose={[Function]}
+      onSwipeComplete={[Function]}
+      panResponderThreshold={4}
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      statusBarTranslucent={false}
+      supportedOrientations={
+        [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeDirection={
+        [
+          "down",
+        ]
+      }
+      swipeThreshold={100}
+      transparent={true}
+      visible={false}
+    />
+  </View>
+</RNCSafeAreaView>
+`;
