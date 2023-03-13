@@ -15,10 +15,12 @@ function LoginScreen() {
   const [email, setEmail] = useState("");
   const [password, setpassword] = useState("");
 
+  const disabled = !email || !password;
+
   const { logIn } = useAuth();
 
   async function handleLogin() {
-    console.log("Tapped");
+    if (disabled) return;
     logIn({ username: email, password, uid: email });
   }
 
@@ -42,7 +44,12 @@ function LoginScreen() {
         onChangeText={(text) => setpassword(text)}
       />
 
-      <AppButtons title="Login" onPress={handleLogin} color={"primary"} />
+      <AppButtons
+        title="Login"
+        onPress={handleLogin}
+        color={"primary"}
+        disabled={disabled}
+      />
     </Screen>
   );
 }

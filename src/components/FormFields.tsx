@@ -29,7 +29,7 @@ const FormFields: FC<props & TextInputProps> = ({
       <AppTextInput
         onBlur={() => setFieldTouched(fieldName)}
         onChangeText={(text) => setFieldValue(fieldName, text)}
-        value={values[fieldName]!.toString()}
+        value={values[fieldName]?.toString()}
         {...otherProps}
         icon={icon}
       />

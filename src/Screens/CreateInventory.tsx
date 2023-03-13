@@ -20,7 +20,7 @@ import colors from "../components/colors";
 import { validationSchema } from "../config/formValidationSchema";
 import useAuth from "../Auth/useAuth";
 
-function ListingEditScreen({ navigation }: AppNavScreenProps<"CreateListing">) {
+function CreateInventory({ navigation }: AppNavScreenProps<"CreateListing">) {
   const { user } = useAuth();
 
   const [failureModal, showFailureModal] = useState({
@@ -88,7 +88,7 @@ function ListingEditScreen({ navigation }: AppNavScreenProps<"CreateListing">) {
           icon="card-text"
           placeholder="Description"
           autoCapitalize="sentences"
-          numberOfLines={3}
+          numberOfLines={4}
           autoCorrect={true}
           fieldName={"description"}
         />
@@ -134,4 +134,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ListingEditScreen;
+export default CreateInventory;
