@@ -1,12 +1,10 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { cleanup } from "@testing-library/react-native";
 import { act } from "react-test-renderer";
-import storage from "../../src/Auth/storage";
-import {
-  deleteInventoryItem,
-  editInventory,
-} from "../../src/helpers/inventories";
-import { IInventories, InventoryDb } from "../../src/interfaces/IInventory";
+import storage from "../src/Auth/storage";
+
+import { deleteInventoryItem, editInventory } from "../src/helpers/inventories";
+import { IInventories, InventoryDb } from "../src/interfaces/IInventory";
 
 describe("Async Storage CRUD operations", () => {
   afterEach(async () => {

@@ -185,7 +185,7 @@ exports[`Create Listing Screen matches snapshot 1`] = `
     <TextInput
       autoCapitalize="sentences"
       autoCorrect={true}
-      numberOfLines={3}
+      numberOfLines={4}
       onBlur={[Function]}
       onChangeText={[Function]}
       placeholder="Description"
@@ -234,7 +234,7 @@ exports[`Create Listing Screen matches snapshot 1`] = `
         "alignItems": "center",
         "backgroundColor": "#fc5c65",
         "borderRadius": 15,
-        "height": 90,
+        "height": 100,
         "justifyContent": "center",
         "marginVertical": 20,
         "opacity": 1,
